@@ -1,0 +1,4 @@
+<h1>All your students are belong to us</h1>
+  <% @students.each do |student| %>
+    <%= [student.first_name, student.last_name] %><br>
+  <% end %>
